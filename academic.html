@@ -18,7 +18,6 @@
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -34,7 +33,7 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="education.html">Education</a></li>
-					<li class="colorlib-active"><a href="academic.html">Academic</a></li>
+					<li class="colorlib-active"><a href="academic.html">Project &amp; Research</a></li>
 					<li><a href="life.html">Life</a></li>
 				</ul>
 			</nav>
@@ -50,39 +49,74 @@
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
-			<section class="ftco-section ftco-bread">
-				<div class="container">
-					<div class="row no-gutters slider-text justify-content-center align-items-center">
+		  <section class="ftco-section ftco-bread">
+			<div class="container">
+			  <div class="row no-gutters slider-text justify-content-center align-items-center">
 	          <div class="col-md-8 ftco-animate">
 	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Academic</span></p>
-	            <h1 class="bread">Academic</h1>
+	            <h1 class="bread">Project &amp; Research</h1>
 	          </div>
 	        </div>
 				</div>
 			</section>
 			<section class="ftco-section-3">
-
-                <h2 class="mb-3 font-weight-bold">Research</h2>
-				<p class="mb-4">The following are the projects that I am working on or have been completed. All of them are in Computer Science or Physics field.</p>
+				<h4 class="mb-3 font-weight-bold">Project</h4><br>
+				<h5 class="mb-3 font-weight-bold">Real World Project</h5>
+				<h6 class="mb-3 font-weight-bold">Felucca, sponsered by CMU-CERT </h6>
+					<a  href="https://github.com/MITS-Felucca/Felucca">Github Repo </a>
+					<p class="mb-3"> I'm one of the main members in Felucca Development Team.<br>
+					  The CERT Executable Code Analysis team develops and maintains a set of program analysis tools, known as Pharos that are based on an increasingly complex infrastructure. The purpose of Felucca project is to develop a control center to unify the Pharos tools and make it easier to manage. Felucca, as a control center, would be able to assist program analysts or users from academic field to run, monitor, and export results from Pharos tools using a single user interface. It also allows The CERT to update the new version of Pharos tools set without any modification in Felucca control center. </p>
+					<br>
+				<h5 class="mb-3 font-weight-bold">Course Related Project</h5><br>
 				
-				<p class="mb-3 font-weight-bold">Design of Multi-channel CNN to Predict 3D Motion of Galaxy </p>
+				<h6 class="mb-3 font-weight-bold">Distributed Syetem</h6>
+				<p class="mb-3">
+				The following are the four projects that I finished in courese 15-640.
+				</p>
+				
+				
+				<p class="mb-3"> <b>Transparent Remote File Operations Project. </b>I build an RPC system to allow remote file operations (open, close, read, write, lseek, stat, unlink, getdirentries, non-standard call). In detail. I create a server process to provide the remote file services AND create a client stub library to perform RPCs.</p>
+				
+				
+				
+				<p class="mb-3"> <strong>File-Caching Proxy Project. </strong>I design and implement a server that lets a remote client read, modify, and delete files in local file space with no security provisions.<br> In detail, I created a <strong>proxy</strong> that sits between the client and the server to handle the file operation RPCs from one or more concurrent clients, fetch needed files from the server, and push modifications back to the server.  <br>I also created a <strong>server</strong> that stores and provides access to a set of files, operate at the granularity of files, and handle concurrent connections from multiple proxies.</p>
+				
+				<p class="mb-3"> <b>Implementation and Performance Tuning of a Scalable Web Service</b>. In this project, I implemented various techniques to scale out a simulated, Cloud-hosted, multi-tier web service (a web store front). Then I evaluated the system to understand what is the bottleneck at different loads, and use this information to decide when to scale out which components in order to improve performance. </p>
+				<p class="mb-3"> <strong>Two-phase Commit for Group Photo Collage Project</strong>. In this project, I built a part of a system that generates and publishes group collages assembled from multiple images contributed by multiple nodes concurrently. The system can keep track of the the status of each node for the future recovery of accidental failure, so each transaction can be resolved as if there was no failure.</p><br>
+				<h6 class="mb-3 font-weight-bold">Text Minging</h6>
+				<p class="mb-3">
+				The following are the four projects that I finished in courese 11-641.
+				</p>
+				<p class="mb-3"> <strong>Link Analysis</strong>. In this project, I developed PageRank algorithm with different personalized variants (PageRank, Personalized PageRank, and Query-sensitive PageRank) and compare them empirically on CiteEval dataset</p>
+				
+				<p class="mb-3"> <strong>Collaborative Filtering</strong>. In this project, I focused on implementing memory-based method and model-based methods(User-user Similarity, PMF, etc.) to predict the ratings of movies, and evaluating them on the Netflix Prize dataset.</p>
+				
+				
+				<p class="mb-3"> <strong>Deep Learning for Text Classification</strong>. I implemented text classifiers using RNN and CNN, to train word embeddings on Multi-Domain Sentiment Dataset. I also used the pre-trained embeddings to improve the classification performance.</p>
+
+				<p class="mb-3"> <strong>Deep Learning for Text Classification</strong>. In this assignment,I developed SGD solver and Newton solver, two optimization methods to solve the objective function of SVM. In addition, I implement SGD optimization on the PMF method that was introduced in the earlier Collaborative Filtering Assignment.</p><br>
+				
+				
+				<h6 class="mb-3 font-weight-bold">Information Security</h6>
+				<p class="mb-5">
+				<b>Deepfakes Investigation</b>, the final project of 17-331, Information Security, Privacy, and Policy. In this project, we tried to answer how we can prepare for the deepfakes era in the four dimensions: Technological Hurdles, Credibility, Legal Solutions, Technological Solutions. Our report is shown <a href="Deepfake_web.pdf">here</a>.</p>
+				
+				<h6 class="mb-1 font-weight-bold">Machine Translation  </h6>
+				<p class="mb-5">
+				<b>Improvement on Low Resources Machine Translation,</b> the final project of 11-731, Machine Translation and Sequence-to-Sequence Models. In this project, we tried to make a improvement on low resources machine translation: English-Sinhala based on FLORES benchmark. Our report can be seen <a href="en-si.pdf">here</a>.</p>
+                <h4 class="mb-3 font-weight-bold">Physics Research</h4>
+				<p class="mb-4">The following are the projects that I woked on when I was an undergraduate major in Physics.</p>
+				
+				<h6 class="mb-3 font-weight-bold">Design of Multi-channel CNN to Predict 3D Motion of Galaxy </h6>
 				<p class=" font-italic" >Prof. Kenji Bekki (International Centre for Radio Astronomy Research, UWA)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sep 2018 - Aug 2019</p>
 				<p class="mb-5">We designed a multi-channel CNN structure for hydrodynamical simulation images prediction. After training the CNN using different sets of simulated images with different astronomical parameters and smoothing the real observational images, this CNN has ability to get accurate predicted parameters of 3D motions of the galaxy.
 				 </p>
 
-				<p class="mb-3 font-weight-bold">Prediction of Properties of New 2D material with DFT and Machine Learning</p>
+				<h6 class="mb-3 font-weight-bold">Prediction of Properties of New 2D material with DFT and Machine Learning</h6>
 				<p class=" font-italic" >Advisor: Prof. Wenguang ZHU (School of Physical Science, USTC)              &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;May 2019 - Aug 2019</p>
 				<p class="mb-4">We applied data of different material from Database to density functional theory calculations (DFT) to get the band structures, extracted the features from band structures of different 2D material, and marked them as label in machine learning training. Then, we developed a supervised machine learning algorithm based on the above results to design new 2D Ferroelectric and Piezoelectric materials with optimal performance.
 				 </p>
 				
-				<h2 class="mb-5 font-weight-bold">Projects</h2>
-				<p class="mb-1 font-weight-bold">Information Security Project </p>
-				<p class="mb-5">
-				In course 17-331, Information Security, Privacy, and Policy, we tried to answer how we can prepare for the deepfakes era in the four dimensions: Technological Hurdles, Credibility, Legal Solutions, Technological Solutions. Our report is shown <a href="Deepfake_web.pdf">here</a>.</p>
-				
-				<p class="mb-1 font-weight-bold">Machine Translation Project </p>
-				<p class="mb-5">
-				In course 11-731, Machine Translation and Sequence-to-Sequence Models, we tried to make a improvement on low resources machine translation: English-Sinhala based on FLORES benchmark. Our report can be seen <a href="en-si.pdf">here</a>.</p>
 				
 				
 			</section>
